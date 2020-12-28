@@ -1,0 +1,16 @@
+{
+  "name": "polish-iso-3166-1",
+  "version": "0.1.0",
+  "description": "ISO 3166 country codes with Polish names",
+  "main": "codes.json",
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "keywords": ["country codes", "polish", "iso-3166"],
+  "author": "Kamil Szydlowski",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "jsdom": "^16.4.0"
+  }
+}
