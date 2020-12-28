@@ -1,6 +1,6 @@
 {
   "name": "country-codes-polish",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ISO 3166 country codes with Polish names",
   "main": "codes.json",
   "scripts": {

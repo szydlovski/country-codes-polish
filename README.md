@@ -56,3 +56,11 @@ import countryCodesNum from 'country-codes-polish/esm/numeric';
 # Scrape it yourself
 
 Clone this repo, run `npm install`, then `npm run scrape`.
+
+# CHANGELOG
+
+## 0.1.1 - 2020-12-28
+
+### Fixed
+
+- Removing Wikipedia references in scraped strings
