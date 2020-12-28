@@ -1,6 +1,6 @@
 # country-codes-polish
 
-JSON files and ES Modules containing ISO 3166-1 country codes with Polish and English names. All data is parsed from [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1).
+JSON files and ES Modules containing ISO 3166-1 country codes with Polish and English names. All data is scraped from [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1).
 
 # Usage
 ```
@@ -55,9 +55,17 @@ import countryCodesNum from 'country-codes-polish/esm/numeric';
 ```
 # Scrape it yourself
 
-Clone this repo, run `npm install`, then `npm run scrape`.
+1. Clone this repo
+2. Run `npm install`
+3. Run `npm run scrape`.
 
 # CHANGELOG
+
+## 0.1.2 - 2020-12-28
+
+### Changed
+
+- JSON files are pretty-printed.
 
 ## 0.1.1 - 2020-12-28
 
