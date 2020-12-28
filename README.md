@@ -1,13 +1,13 @@
-# polish-iso-3166-1
+# country-codes-polish
 
 JSON files and ES Modules containing ISO 3166-1 country codes with Polish and English names. All data is parsed from [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1).
 
 # Usage
 ```
-npm install polish-iso-3166-1
+npm install country-codes-polish
 ```
 ```javascript
-const countryCodes = require('polish-iso-3166-1');
+const countryCodes = require('country-codes-polish');
 
 countryCodes.find(({name_en}) => name_en === 'Germany') =>
 
@@ -24,7 +24,7 @@ countryCodes.find(({name_en}) => name_en === 'Germany') =>
 
 // alpha-2
 
-const countryCodesA2 = require('polish-iso-3166-1/alpha-2');
+const countryCodesA2 = require('country-codes-polish/alpha-2');
 
 countryCodesA2.find(({code}) => code === 'DE') =>
 
@@ -32,7 +32,7 @@ countryCodesA2.find(({code}) => code === 'DE') =>
 
 // alpha-3
 
-const countryCodesA3 = require('polish-iso-3166-1/alpha-3');
+const countryCodesA3 = require('country-codes-polish/alpha-3');
 
 countryCodesA3.find(({code}) => code === 'DEU') =>
 
@@ -40,18 +40,18 @@ countryCodesA3.find(({code}) => code === 'DEU') =>
 
 // numeric
 
-const countryCodesNum = require('polish-iso-3166-1/numeric');
+const countryCodesNum = require('country-codes-polish/numeric');
 
 countryCodesNum.find(({code}) => code === '276') =>
 
 { name_pl: 'Niemcy', name_en: 'Germany', code: '276' }
 ```
-There are also ESM formatted files available as:
+This package also includes ESM formatted files available as:
 ```javascript
-import countryCodes from 'polish-iso-3166-1/esm';
-import countryCodesA2 from 'polish-iso-3166-1/esm/alpha-2';
-import countryCodesA3 from 'polish-iso-3166-1/esm/alpha-3';
-import countryCodesNum from 'polish-iso-3166-1/esm/numeric';
+import countryCodes from 'country-codes-polish/esm';
+import countryCodesA2 from 'country-codes-polish/esm/alpha-2';
+import countryCodesA3 from 'country-codes-polish/esm/alpha-3';
+import countryCodesNum from 'country-codes-polish/esm/numeric';
 ```
 # Scrape it yourself
 
